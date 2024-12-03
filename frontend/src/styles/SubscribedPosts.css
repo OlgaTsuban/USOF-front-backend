@@ -1,0 +1,64 @@
+.subscribed-posts {
+    margin: 20px auto;
+    max-width: 800px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.subscribed-posts h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #0056b3;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.subscribed-posts p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #666;
+}
+
+.subscribed-posts ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.post-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 15px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.post-item:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
+
+.post-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #0056b3;
+}
+
+.post-item p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.post-item a {
+    text-decoration: none;
+    color: #0056b3;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.post-item a:hover {
+    text-decoration: underline;
+    color: #003d80;
+}
